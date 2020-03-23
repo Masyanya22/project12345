@@ -12,11 +12,11 @@ let expenses = {
 
 let appData = {
     budget: money,
-    timeData: money,
-    expenses,
-    optionalExpenses: "",
-    income: "",
+    timeData: time,
+    expenses: {},
+    optionalExpenses: {},
+    income: {},
     savings: false
 };
 
-alert("money/30");
+alert(money/30);
